@@ -1,0 +1,31 @@
+.navbar .btn-outline-light:hover {
+  color: #333;
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.sticky-top {
+  opacity: 0.9;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
